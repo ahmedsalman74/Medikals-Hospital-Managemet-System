@@ -1,0 +1,274 @@
+/*COLORS:
+   #E8F6EF, #E99497, #FFD8CC, #DBE6FD, #F5E8C7, #F4DFD0, #F1ECC3, #FFBBCC, #261C2C , #289672 ,#373A40, #082032, #e7f6f1 */
+
+   * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e7f6f1;
+    }
+    .logo
+    {
+    width:120px;
+    cursor: grab;
+    background: #e7f6f1;
+    }
+    .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+
+    }
+
+    .navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    ;
+
+    }
+
+    .navbar ul li ::after{
+    content:'';
+    height: 3px;
+    width:0;
+    background: #22a778;
+    position: absolute;
+    left:0;
+    top:30px;
+    transition: 0.5s;
+
+    }
+
+    .navbar ul li:hover ::after{
+    width:100%;
+
+    }
+
+h3 {
+    font-size: 28px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#h3 {
+    text-align: left;
+    display: contents;
+}
+
+.span {
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    display: contents;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: #e7f6f1;
+    background-position: center;
+    display: grid;
+}
+
+legend {
+    text-align: center;
+}
+
+.fieldDiv {
+    background-color: #22a778;
+
+    /* /background-color:#82d7bd;/ */
+
+    margin: 20px 30px;
+    width: 300px;
+    height: 650px;
+    padding: 15px 15px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.img-circle {
+    /* /background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdna.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F013%2F104%2F982%2Flarge%2Flolv-arata-asset.jpg%3F1538068016&imgrefurl=https%3A%2F%2Flolv_arata.artstation.com%2Fprojects%2FmxrvY&tbnid=UTRoRvoflllUNM&vet=12ahUKEwiW25Xkrcn5AhURhxoKHfjFDUgQMygMegUIARDlAQ..i&docid=fD9n6UhgF_dFQM&w=1639&h=2018&q=korean%20girl%20image&ved=2ahUKEwiW25Xkrcn5AhURhxoKHfjFDUgQMygMegUIARDlAQ");/ */
+    border-radius: 70px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.por {
+
+    border-radius: 20px;
+    width: 1050px;
+    /* height: 300px; */
+    display: inline-block;
+    background-color: #22a778;
+    justify-content: right;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 50px;
+    max-height: 571px;
+    margin: 100px 50px 30px 50px;
+    overflow-x:auto;
+
+}
+
+
+.port {
+
+    border-radius: 20px;
+    width: 1050px;
+    height: 210px;
+    display: inline-block;
+    background-color: #22a778;
+    justify-content: right;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 90px;
+    margin: 100px 50px 50px 50px;
+    overflow-x:auto;
+}
+
+
+
+
+.ContainerDiv {
+    background-color: #e7f6f1;
+    padding: 0 0 20px 0;
+
+}
+
+span{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   /* WE WILL ADJUST IT WHEN WE OLACE THE DATA */
+
+}
+.Scroller {
+    line-height: 30px;
+    padding: 30px 40px;
+    /* text-align: center; */
+    margin: 20px 40px 10px 10px;
+    border-radius: 30px;
+    /* background-color: #9adfc9; */
+    background-color: #e7f6f1;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+    background-color: #e7f6f1;
+}
+.por::-webkit-scrollbar {
+    width: 10px;
+    background-color: #e7f6f1;
+}
+
+.por::-webkit-scrollbar-track {
+    background-color: #e7f6f1;
+    border-radius: 20px;
+    box-shadow:inset 0 0 10px rgba(90, 223, 185, 0.941) ;
+
+}
+
+.por::-webkit-scrollbar-thumb {
+    background-color:  #e7f6f1 rgba(90, 223, 185, 0.941) ;
+    border-radius: 30px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #22a778;
+
+}
+
+
+table.GeneratedTable {
+  width: 100%;
+  /* background-color: #9adfc9 ; */
+  background-color: #e7f6f1;
+  border-collapse: collapse;
+  border-width: 0px;
+  border-style: ridge;
+
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 0px;
+  width: 0%;
+  border-style: ridge;
+  padding: 3px;
+}
+
+label{
+    padding: 10px;
+    margin: 5px;
+    /* font-family: cursive; */
+    color: honeydew;
+    font-size: large;
+    }
+
+    input{
+        background-color: #e7f6f1;
+        border-radius: 7px;
+        height: 32px;
+        width: 250px;
+        padding: 10px 15px;
+        margin: 5px;
+        font-size: 14px;
+        font-family: cursive;
+    }
+
+
+
+    button {
+        width: 200px;
+        height: 40px;
+        padding: 0.30% 0%;
+        text-align: center;
+        margin: 0 43%;
+        border-radius: 25px;
+        font-weight: bold;
+        border:  solid  #e7f6f1;
+        cursor: pointer;
+        color: #3a9e7b;
+        text-shadow: black;
+        overflow: hidden;
+      }
+
+      button:hover {
+        border: none;
+      }
+
+
+
+
+
+
+
+

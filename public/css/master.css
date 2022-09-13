@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.navbar{
+
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    }
+    .logo
+    {
+    width:120px;
+    cursor: grab;
+    padding-left: 10%;
+    }
+    .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+
+    }
+
+    .navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    ;
+
+    }
+
+    .navbar ul li ::after{
+    content:'';
+    height: 3px;
+    width:0;
+    background: #22a778;
+    position: absolute;
+    left:0;
+    top:30px;
+    transition: 0.5s;
+
+    }
+
+    .navbar ul li:hover ::after{
+    width:100%;
+
+    }
+body{
+
+    font-family :  sans-serif;
+    width:90%;
+    height:100vh;
+    background-image:url(/image/doctor2.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+
+.container {
+    position :relative;
+    left :45%;
+    padding-top: 80px;
+
+    margin-left: 100px;
+    margin-right: auto;
+    width : 50%;
+
+
+}
+.container h1{
+       color : #22a778;
+       right : 155px;
+       top : 17px;
+       position: absolute;
+
+
+}
+.container .form .user-info{
+        display :flex;
+        flex-wrap: wrap;
+
+}
+#Service {
+    margin-right: 220px;
+
+}
+select{
+
+    width :295px;
+    padding :15px;
+    margin : 18px;
+    border-radius:25px;
+    border: 2px solid #22a778;
+
+
+}
+input {
+    width :260px;
+    padding :15px;
+    margin : 18px;
+    border-radius:25px;
+    border: 2px solid #22a778;
+
+
+
+
+}
+img {
+    width:700px;
+    left: 160px ;
+    top : 85px;
+
+}
+
+
+.date {
+    width : 260px;
+}
+.time {
+
+    width : 260px;
+}
+.message {
+    width : 600px;
+}
+
+button{
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    margin-left: 32%;
+    margin-top: 44px;
+    border-radius: 25px;
+    font-weight: bold;
+    /* border: 2px solid #009688; */
+    border: 2px solid #22a778;
+    background: transparent;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+
+
+    }
+
+
+    span {
+    /* background:#009688; */
+    background:#22a778;
+    width:0;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+    }
+
+
+
+    button:hover  span{
+      width: 100%;
+    }
+
+
+
+    button:hover{
+
+      border:none;
+    }
+
+
+    textarea{
+
+        width :260px;
+        padding :15px;
+        margin : 18px 18px 8px 18px;
+        border-radius:25px;
+        border: 2px solid  #22a778;
+        /* border: 2px solid #009688 ; */
+        /* #22a778; */
+        resize: none;
+    }
+
+
+
+
