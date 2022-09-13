@@ -1,3 +1,45 @@
+## About Project 
+
+Laravel  application for full Hospital mangment project devided into sides 
+
+## first side
+User side is for browsing his site and make an appointments 
+
+
+## Second side 
+Admin side  with resposive dashboard 
+1- appointments table 
+2-make appointments
+3- print an appointment bill
+ 
+Users controlle
+1- vew all users 
+2 - edit users data 
+
+doctors mangement 
+1- view all doctors 
+2- adding new doctors 
+3- edit doctors data 
+
+billing module 
+1- creating bills 
+2- printing bills 
+3- view all bills 
+
+
+## Security and Validation 
+
+1- all inputs have back-end validation 
+2- all inputs have front end validation
+3- we have meddilewares for authintaction 
+4- there user validation when login as user or as admin 
+5- customized Error pages to prevent user from making errors
+
+## Data base 
+1- Data-Base created by miagrations and models 
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
