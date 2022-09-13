@@ -7,36 +7,36 @@ User side is for browsing his site and make an appointments
 
 
 ## Second side 
-Admin side  with resposive dashboard 
-1- appointments table 
-2-make appointments
-3- print an appointment bill
+Admin side  with resposive dashboard <br>
+1- appointments table <br>
+2-make appointments<br>
+3- print an appointment bill<br>
  
-Users controlle
-1- vew all users 
-2 - edit users data 
+Users controlle<br>
+1- vew all users <br>
+2 - edit users data <br>
 
-doctors mangement 
-1- view all doctors 
-2- adding new doctors 
-3- edit doctors data 
+doctors mangement <br>
+1- view all doctors <br>
+2- adding new doctors <br>
+3- edit doctors data <br>
 
-billing module 
-1- creating bills 
-2- printing bills 
-3- view all bills 
+billing module <br>
+1- creating bills <br>
+2- printing bills <br>
+3- view all bills <br>
 
 
 ## Security and Validation 
 
-1- all inputs have back-end validation 
-2- all inputs have front end validation
-3- we have meddilewares for authintaction 
-4- there user validation when login as user or as admin 
-5- customized Error pages to prevent user from making errors
+1- all inputs have back-end validation <br>
+2- all inputs have front end validation<br>
+3- we have meddilewares for authintaction <br>
+4- there user validation when login as user or as admin <br>
+5- customized Error pages to prevent user from making errors <br>
 
 ## Data base 
-1- Data-Base created by miagrations and models 
+1- Data-Base created by miagrations and models <br>
 
 
 
