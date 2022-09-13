@@ -17,7 +17,7 @@
           @if(session('user')->role==1)
           <li><a href="/logouts">Logout</a></li>
           @else
-          <li><a style="text-transform: capitalize" href="{{ route('index',session('user')->id)}}">{{session('user')->name}}</a></li>‏
+          <li><a style="text-transform: capitalize" href="{{ route('index',session('user')->id)}}">{{session('user')->name}}</a></li>
 
           <li><a href="/logout">Logout</a></li>
         @endif

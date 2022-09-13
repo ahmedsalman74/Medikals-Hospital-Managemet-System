@@ -16,14 +16,29 @@
         <div class="center" style="margin-top: 150px; margin-bottom: 30px; text-align: center"> <a href="/admin">
                 <h2>return to the Admin page</h2>
             </a> </div>
-    </div> 
-    
-    
+    </div>
+
+
     @else
 
-    @if($user->id!==session('user')->id)
 
-    <div class="container">
+<?php
+if(is_null($user))
+{
+    header('location: /usererror');
+  exit;
+}
+else {
+
+
+if ($user->id!==session('user')->id) {
+  // redirect them to your desired location
+  header('location: /usererror');
+  exit;
+}
+}
+?>
+    {{-- <div class="container">
         <div class="center" style="margin-top: 150px; margin-bottom: 30px; text-align: center">
             <h1>Sorry, you can't access this user.</h1>
             <br>
@@ -31,9 +46,9 @@
                 <h2>return to the home page</h2>
             </a>
         </div>
-    </div>
+    </div> --}}
 
-    @else
+    {{-- @else --}}
 
 
 
@@ -147,8 +162,8 @@
         @endif
         @endif
 
-       
-        @endif
+
+        {{-- @endif --}}
 </body>
 
 </html>

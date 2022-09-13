@@ -96,16 +96,16 @@
                 <ul class="metismenu" id="menu">
 
 
-                    <li><a>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                             <i class="flaticon-043-menu"></i>
                             <span class="nav-text">appointments</span>
                         </a>
                         <ul aria-expanded="false">
                             <li><a href="<?php echo e(route('apointments.index')); ?> ">View appointments</a></li>
-                            <li><a href="<?php echo e(route('apointments.create')); ?>">Add appointments</a></li>
+                            <li><a href="<?php echo e(route('apointments.create')); ?> ">Add appointments</a></li>
                         </ul>
                     </li>
-                    <li><a>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                             <i class="flaticon-043-menu"></i>
                             <span class="nav-text">Users</span>
                         </a>
@@ -114,7 +114,7 @@
 
                         </ul>
                     </li>
-                    <li><a>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                             <i class="flaticon-043-menu"></i>
                             <span class="nav-text">Doctors</span>
                         </a>
@@ -122,12 +122,93 @@
                             <li><a href="<?php echo e(route('doctorss.index')); ?> ">View Doctors</a></li>
                             <li><a href="<?php echo e(route('doctorss.create')); ?>">Add doctor </a></li>
                         </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Billing</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="<?php echo e(route('invoice.create')); ?>">Add Bill</a></li>
+                            <li><a href="<?php echo e(route('invoice.index')); ?>">view all Bills </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Radiolgy</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Beds</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Reserve </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Out Patient</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">HR</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Front office</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Pathology</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Pharmacy</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
                     </li>
 
                 </ul>
                 <div class="copyright">
                     <p><strong>Admin Dashboard</strong> © 2022 All Rights Reserved</p>
-                    <p class="fs-12">Made with <span>❤️</span> by Ahmed salan</p>
+                    <p class="fs-12">Made with <span>❤️</span> by Ahmed salman</p>
                 </div>
             </div>
         </div>
@@ -157,7 +238,7 @@
 
                                 <div class="card">
                                     <div class="card-header">
-                                        <h4 class="card-title">Enter Doctor Data</h4>
+                                        <h4 class="card-title">Update User Data</h4>
                                     </div>
                                     <div class="card-body">
                                         <div class="basic-form">

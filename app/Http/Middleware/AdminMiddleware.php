@@ -17,16 +17,14 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if (session('user')->role == 1) {
-            return $next($request);
-        }else{
-            return redirect('error');
+        if (is_null(session('user'))) {
+            return redirect('/login');
+        } else {
+            if (session('user')->role == 1) {
+                return $next($request);
+            } else {
+                return redirect('/usererror');
+            }
         }
-        
-       
-        
     }
-
-   
-    
 }

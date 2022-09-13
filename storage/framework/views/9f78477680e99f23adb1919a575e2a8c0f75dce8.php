@@ -123,7 +123,7 @@ if (!isset($_SERVER['HTTP_REFERER'])) {
     document.body.innerHTML = printContents;
     window.print();
     document.body.innerHTML = originalContents;
-    location.reload();
+    
   }
 </script>
 

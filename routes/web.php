@@ -45,7 +45,8 @@ Route::group(['middleware' => ['myauth', 'User']], function () {
 
 
     Route::get('/show', [HisController::class, 'show']);
-    Route::get('/error', [HisController::class, 'error']);
+    Route::get('/usererror', [HisController::class, 'usererror']);
+   
 
     Route::delete('/show', [\App\Http\Controllers\HisController::class, 'destroy'])->name('destroy');
 
@@ -72,9 +73,10 @@ Route::group(['middleware' =>  'admin'], function () {
     Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin');
 
     Route::get('/logouts', [HisController::class, 'logout']);
+   
+  
+    
     Route::get('/error', [HisController::class, 'error']);
-
-
     //admin
 
     /* 

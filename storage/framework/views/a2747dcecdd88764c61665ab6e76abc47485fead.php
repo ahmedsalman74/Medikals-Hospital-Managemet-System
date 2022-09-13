@@ -16,24 +16,31 @@
         <div class="center" style="margin-top: 150px; margin-bottom: 30px; text-align: center"> <a href="/admin">
                 <h2>return to the Admin page</h2>
             </a> </div>
-    </div> 
-    
-    
-    <?php else: ?>
-
-    <?php if($user->id!==session('user')->id): ?>
-
-    <div class="container">
-        <div class="center" style="margin-top: 150px; margin-bottom: 30px; text-align: center">
-            <h1>Sorry, you can't access this user.</h1>
-            <br>
-            <a href="/">
-                <h2>return to the home page</h2>
-            </a>
-        </div>
     </div>
 
+
     <?php else: ?>
+
+
+<?php
+if(is_null($user))
+{
+    header('location: /usererror');
+  exit;
+}
+else {
+
+
+if ($user->id!==session('user')->id) {
+  // redirect them to your desired location
+  header('location: /usererror');
+  exit;
+}
+}
+?>
+    
+
+    
 
 
 
@@ -148,8 +155,8 @@
         <?php endif; ?>
         <?php endif; ?>
 
-       
-        <?php endif; ?>
+
+        
 </body>
 
 </html><?php /**PATH F:\projects\summer train 2022\His project last edit v2\resources\views/profile.blade.php ENDPATH**/ ?>

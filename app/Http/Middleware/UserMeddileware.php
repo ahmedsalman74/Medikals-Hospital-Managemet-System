@@ -16,13 +16,15 @@ class UserMeddileware
      */
     public function handle(Request $request, Closure $next)
     {
-        
-        
+
+
+
         if (session('user')->role == 0) {
             return $next($request);
         }else{
-            return redirect('error');
+            return redirect('/error');
         }
-       
+    
+
     }
 }

@@ -22,6 +22,7 @@
                 <li><a href="/doctors">Doctors</a></li>
                 <li><a href="/service">Services</a></li>
                 <?php if(session('user')->role == 1): ?>
+                <li><a href="/admin">Admin</a></li>
                 <li><a href="/logouts">Logout</a></li>
                 <?php else: ?>
                 <li><a style="text-transform: capitalize" href="<?php echo e(route('index',session('user')->id)); ?>"><?php echo e(session('user')->name); ?></a></li>‏

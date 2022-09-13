@@ -126,12 +126,83 @@
                     </li>
                     <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                             <i class="flaticon-043-menu"></i>
-                            <span class="nav-text">Billing </span>
+                            <span class="nav-text">Billing</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="">Add Bill</a></li>
-                            <li><a href="">viwe all Bils </a></li>
+                            <li><a href="<?php echo e(route('invoice.create')); ?>">Add Bill</a></li>
+                            <li><a href="<?php echo e(route('invoice.index')); ?>">view all Bills </a></li>
                         </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Radiolgy</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Beds</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Reserve </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Out Patient</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">HR</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Front office</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Pathology</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-043-menu"></i>
+                            <span class="nav-text">Pharmacy</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a >Add </a></li>
+                            <li><a >view  </a></li>
+                        </ul>
+
                     </li>
 
                 </ul>

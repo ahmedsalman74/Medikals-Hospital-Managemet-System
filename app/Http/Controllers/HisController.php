@@ -22,6 +22,10 @@ class HisController extends Controller
         return view('error');
 
     }
+    public function usererror(){
+        return view('usererror');
+
+    }
 
     public function index(){
         return view('index');

@@ -13,22 +13,27 @@
 
 <body>
 
+    <?php
+    if(is_null($user))
+    {
+        header('location: /usererror');
+      exit;
+    }
+    else {
+
+
+    if ($user->id!==session('user')->id) {
+      // redirect them to your desired location
+      header('location: /usererror');
+      exit;
+    }
+    }
+    ?>
 
 
 
-    @if($user->id!==session('user')->id)
 
 
-
-    <div class="container">
-        <div class="center" style="margin-top: 150px; margin-bottom: 30px; text-align: center">
-            <h1>Sorry, you can't access this user.</h1>
-            <br>
-            <a href="/"><h2>return to the home page</h2></a>
-        </div>
-    </div>
-
-@else
     <div class="banner">
         @if (session('loggedIn'))
         <div class="navbar">
@@ -96,7 +101,8 @@
                             </tr>
                             <tr>
                                 <td style="padding-bottom: 18px;"><label for="phone">User's Phone: </label></td>
-                                <td><input type="tel" name="phone" value="{{ $user->phone }}"><br><br></td>
+                                <td> <input style="width:60px; display:inline-block; color:black;" class="form-control" placeholder="+20" readonly>
+                                <input style="width:176px; display:inline-block; margin-left: 4px;" type="tel" name="phone" value="{{ $user->phone }}"><br><br></td>
                             </tr>
                             <tr>
                                 <td style="padding-bottom: 18px;"><label for="address">User's Address: </label></td>
@@ -112,7 +118,7 @@
             </div>
         </div>
     </div>
-@endif
+
 </body>
 
 </html>

@@ -31,14 +31,14 @@
 <body>
 
 
-    <!--**********************************
+    <!--************
         Main wrapper start
-    ***********************************-->
+    *************-->
     <div id="main-wrapper">
 
-        <!--**********************************
+        <!--************
             Nav header start
-        ***********************************-->
+        *************-->
         <div class="nav-header">
             <a href="{{ route('admin') }} " class="brand-logo">
                 Medikals
@@ -53,18 +53,18 @@
             </div>
 
         </div>
-        <!--**********************************
+        <!--************
             Nav header end
-        ***********************************-->
+        *************-->
 
 
 
 
 
 
-        <!--**********************************
+        <!--************
             Header start
-        ***********************************-->
+        *************-->
         <div class="header">
             <div class="header-content">
                 <nav class="navbar navbar-expand">
@@ -90,13 +90,13 @@
                 </nav>
             </div>
         </div>
-        <!--**********************************
+        <!--************
             Header end ti-comment-alt
-        ***********************************-->
+        *************-->
 
-        <!--**********************************
+        <!--************
             Sidebar start
-        ***********************************-->
+        *************-->
         <div class="dlabnav">
             <div class="dlabnav-scroll">
                 <ul class="metismenu" id="menu">
@@ -218,13 +218,13 @@
                 </div>
             </div>
         </div>
-        <!--**********************************
+        <!--************
             Sidebar end
-        ***********************************-->
+        *************-->
 
-        <!--**********************************
+        <!--************
             Content body start
-        ***********************************-->
+        *************-->
         <div class="content-body">
             <div class="container-fluid">
                 <div class="row page-titles">
@@ -268,7 +268,7 @@
                                             <br>
                                             <div class="input-group">
 
-                                                <input class="form-control wide" id="bill_amount" autocomplete="off" required="">
+                                                <input class="form-control wide" id="bill_amount" autocomplete="off" required="" disabled>
                                                 <a class="input-group-text">price</a>
                                             </div>
                                             <br>
@@ -289,19 +289,22 @@
                                             <br>
                                             <div class="input-group">
 
-                                                <input name="discount" class="form-control wide" id="discount_amount" >
+                                                <input  class="form-control wide" id="discount_amount" disabled>
+                                                <input  type="hidden" name="discount"  id="discount_amount1" >
                                                 <a class="input-group-text">Discount Amount</a>
                                             </div> <br>
 
                                             <div class="input-group">
 
-                                                <input name="total" class="form-control wide" id="final_amount">
+                                                <input class="form-control wide" id="final_amount" disabled>
+                                                <input type="hidden" name="total" id="final1_amount">
                                                 <a class="input-group-text">Total $</a>
+
                                             </div>
                                             <br> <br>
 
                                             <div class="input-group">
-                                                <button class="btn btn-primary btn-lg btn-block" id="btn_1">Calculate</button>
+                                                <button class="btn btn-primary btn-lg btn-block"  type="button" id="btn_1">Calculate</button>
 
 
                                             </div>
@@ -418,44 +421,44 @@
             </div>
         </div>
     </div>
-    <!--**********************************
+    <!--************
             Content body end
-        ***********************************-->
+        *************-->
 
-    <!--**********************************
+    <!--************
             Footer start
-        ***********************************-->
+        *************-->
     <div class="footer">
         <div class="copyright">
             <p>Copyright © Designed &amp; Developed by <a href="" target="_blank">@salman74</a> 2022</p>
         </div>
     </div>
-    <!--**********************************
+    <!--************
             Footer end
-        ***********************************-->
+        *************-->
 
-    <!--**********************************
+    <!--************
            Support ticket button start
-        ***********************************-->
+        *************-->
 
-    <!--**********************************
+    <!--************
            Support ticket button end
-        ***********************************-->
+        *************-->
 
 
     </div>
-    <!--**********************************
+    <!--************
         Main wrapper end
-    ***********************************-->
+    *************-->
 
-    <!--**********************************
+    <!--************
         Scripts
-    ***********************************-->
+    *************-->
 
 
-    <!--**********************************
+    <!--************
                                         this script is for adding new div in li to add new shlect option
-    ***********************************-->
+    *************-->
 
     <!--   <script>
         function myFunction() {
@@ -513,7 +516,7 @@
                         });
                     });
 
-                    //add to cart 
+                    //add to cart
                     var count = 1;
                     $('#add').on('click', function() {
 
@@ -552,7 +555,7 @@
                                 var taxAmount = $('#taxAmount').text();
 
                                 var totalPayment = parseFloat(Subtotal) + parseFloat(taxAmount);
-                                $('#totalPayment').text(totalPayment.toFixed(2)); // Showing using ID 
+                                $('#totalPayment').text(totalPayment.toFixed(2)); // Showing using ID
 
                             });
                             count++;
@@ -588,7 +591,13 @@
 
                         $.each(data, function(key, resp) {
                             $('#p').text(resp[0].price);
+                            $('#p').val(resp[0].price)
                             $('#price').text(resp[0].price);
+
+                            const bill_amount = document.getElementById('bill_amount');
+                            const p = document.getElementById('p');
+                            bill_amount.value=p.value;
+
 
                         });
                     }
@@ -602,24 +611,32 @@
         const bill_amount = document.getElementById('bill_amount');
         const select_percentage = document.getElementById('select_percentage');
         const discount_amount = document.getElementById('discount_amount');
+        const discount_amount1 = document.getElementById('discount_amount1');
         const final_amount = document.getElementById('final_amount');
+        const final_amount1 = document.getElementById('final_amount1');
 
         const btn_1 = document.getElementById('btn_1').addEventListener("click", (e) => {
-            if ((bill_amount.value !== "") && (select_percentage.value !== "-percentage-")) {
+            // if ((bill_amount.value !== "") && (select_percentage.value !== "-percentage-")) {
                 let discount = bill_amount.value * (select_percentage.value / 100);
                 let select = select_percentage.value;
                 discount_amount.value = discount.toFixed(2);
+                discount_amount1.value= discount_amount.value
                 select_percentage.value=select;
-            }
-
-            if ((bill_amount.value !== "") && (select_percentage.value = "-percentage-") && (discount_amount.value !== "")) {
                 let final = bill_amount.value - discount_amount.value;
                 final_amount.value = final.toFixed(2);
-            }
+                final1_amount.value =  final_amount.value
+
+
+            // }
+
+            // if ((bill_amount.value !== "") && (select_percentage.value = "-percentage-") && (discount_amount.value !== "")) {
+            //     let final = bill_amount.value - discount_amount.value;
+            //     final_amount.value = final.toFixed(2);
+            // }
         })
 
 
-   
+
     </script>
 
 

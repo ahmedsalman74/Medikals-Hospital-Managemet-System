@@ -20,10 +20,10 @@
       </div>
       
       <h1>404:
-        <small> Not have admin permmision</small>
+        <small> Not have Access permmision</small>
 
       </h1>
-      <a href="/"><h1><small>BACK Home</small></h1></a>
+      <a href="/admin"><h1><small>BACK Home</small></h1></a>
 
     </div>
   </div>

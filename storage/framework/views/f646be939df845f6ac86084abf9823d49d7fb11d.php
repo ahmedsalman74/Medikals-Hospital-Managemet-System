@@ -396,7 +396,7 @@ unset($__errorArgs, $__bag); ?>
         document.getElementById("formtime").value = displayTime;
 
         document.getElementById('formdate').setAttribute("min", today);
-        document.getElementById('formtime').setAttribute("min", displayTime);
+       
     </script>
     <script type='text/javascript'>
         $(document).ready(function() {

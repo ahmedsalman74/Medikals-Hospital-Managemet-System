@@ -18,7 +18,7 @@
       </a> </div>
   </div>
 
-  
+
   <?php else: ?>
   <div class="banner">
     <?php if(session('loggedIn')): ?>
@@ -28,7 +28,7 @@
         <li><a href="/">Home</a></li>
         <li><a href="/doctors">Doctors</a></li>
         <li><a href="/service">Services</a></li>
-        <li><a style="text-transform: capitalize" href="<?php echo e(route('index',session('user')->id)); ?>"><?php echo e(session('user')->name); ?></a></li>‏
+        <li><a style="text-transform: capitalize" href="<?php echo e(route('index',session('user')->id)); ?>"><?php echo e(session('user')->name); ?></a></li>
 
         <li><a href="/logout">Logout</a></li>
         <li><a href="/first">Contact</a></li>
@@ -93,7 +93,7 @@
           <div>
             <label> </label>
             <input style="display: none;" type="number" name="PID" value="<?php echo e(session('user')->id); ?>">
-            <input type="text" name="Pname" required placeholder="FullName"> <input type="number" name="phone" required placeholder="Your phone">
+            <input type="text" name="Pname" required placeholder="FullName"> <input type="phone" name="phone" required placeholder="Your phone">
           </div>
 
           <div>
@@ -141,7 +141,7 @@
       document.getElementById("formtime").value = displayTime;
 
       document.getElementById('formdate').setAttribute("min", today);
-      document.getElementById('formtime').setAttribute("min", displayTime);
+    //   document.getElementById('formtime').setAttribute("min", displayTime);
     </script>
 
 

@@ -13,6 +13,7 @@
           <li><a href="/">Home</a></li>
           <li><a href="/doctors">Doctors</a></li>
           <li><a href="/service">Services</a></li>
+          <li><a href="/admin">Admin</a></li>
           <?php if(session('user')->role==1): ?>
           <li><a href="/logouts">Logout</a></li>
           <?php else: ?>
