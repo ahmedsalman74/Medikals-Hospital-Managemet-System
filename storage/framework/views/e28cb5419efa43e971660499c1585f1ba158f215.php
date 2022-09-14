@@ -17,7 +17,7 @@
           <?php if(session('user')->role==1): ?>
           <li><a href="/logouts">Logout</a></li>
           <?php else: ?>
-          <li><a style="text-transform: capitalize" href="<?php echo e(route('index',session('user')->id)); ?>"><?php echo e(session('user')->name); ?></a></li>‏
+          <li><a style="text-transform: capitalize" href="<?php echo e(route('index',session('user')->id)); ?>"><?php echo e(session('user')->name); ?></a></li>
 
           <li><a href="/logout">Logout</a></li>
         <?php endif; ?>
