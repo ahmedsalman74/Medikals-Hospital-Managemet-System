@@ -21,7 +21,7 @@ Route::get('/', [HisController::class, 'index']);
 Route::get('/doctors', [HisController::class, 'doctors']);
 Route::get('/service', [HisController::class, 'service']);
 Route::get('/first', [HisController::class, 'first']);
-Route::get('/appcreate', [HisController::class, 'appcreate']);
+
 Route::get('/print', [HisController::class, 'print']);
 
 
