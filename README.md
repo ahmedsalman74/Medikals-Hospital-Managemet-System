@@ -38,6 +38,43 @@ billing module <br>
 ## Data base 
 1- Data-Base created by miagrations and models <br>
 
+_Social buttons_
+
+[![ahmedsalman74 - Medikals-Hospital-Managemet-System](https://img.shields.io/static/v1?label=ahmedsalman74&message=Medikals-Hospital-Managemet-System&color=blue&logo=github)](https://github.com/ahmedsalman74/Medikals-Hospital-Managemet-System "Go to GitHub repo")
+[![stars - Medikals-Hospital-Managemet-System](https://img.shields.io/github/stars/ahmedsalman74/Medikals-Hospital-Managemet-System?style=social)](https://github.com/ahmedsalman74/Medikals-Hospital-Managemet-System)
+[![forks - Medikals-Hospital-Managemet-System](https://img.shields.io/github/forks/ahmedsalman74/Medikals-Hospital-Managemet-System?style=social)](https://github.com/ahmedsalman74/Medikals-Hospital-Managemet-System)
+
+
+_Repo metadata_
+
+
+[![GitHub tag](https://img.shields.io/github/tag/ahmedsalman74/Medikals-Hospital-Managemet-System?include_prereleases=&sort=semver&color=blue)](https://github.com/ahmedsalman74/Medikals-Hospital-Managemet-System/releases/)
+[![License](https://img.shields.io/badge/License-salman74-blue)](#license)
+[![issues - Medikals-Hospital-Managemet-System](https://img.shields.io/github/issues/ahmedsalman74/Medikals-Hospital-Managemet-System)](https://github.com/ahmedsalman74/Medikals-Hospital-Managemet-System/issues)
+
+_Call-to-Action buttons_
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/ahmedsalman74/Medikals-Hospital-Managemet-System/generate)
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://ahmedsalman74.github.io/Medikals-Hospital-Managemet-System/)
+
+</div>
+
+## Documentation
+
+<div align="center">
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+
+</div>
+
+
+## License
+
+Released under [salman74](/LICENSE) by [@ahmedsalman74](https://github.com/ahmedsalman74).
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
