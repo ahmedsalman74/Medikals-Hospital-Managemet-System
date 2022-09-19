@@ -1,4 +1,4 @@
-![52152](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.png)
+<p align="center">![52152](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.png)</p>
 
 
 ## Home screen 
