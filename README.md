@@ -1,4 +1,5 @@
 <p align="center"><a href="https://drive.google.com/file/d/1bR3PZ2LZa9i4WZJpaAmNf5MYR14XL_B-/view?usp=sharing" width="400"></a></p>
+<p align="center"> <img src="https://drive.google.com/file/d/1bR3PZ2LZa9i4WZJpaAmNf5MYR14XL_B-/view?usp=sharing"/> </p>
 
 ## About Project 
 
