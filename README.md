@@ -11,17 +11,17 @@ Laravel  application for full Hospital management project for making real appoin
 User side is for browsing his site and make an appointments and printing a bill
 <br><br>
 1- Home screen for user
-<br>
+<br><br><br>
 ![Screenshot 2022-09-18 012404](https://user-images.githubusercontent.com/79092734/191007343-71a789cb-6180-4b9b-b7b3-3f65684ad662.png)
 
-<br>
+<br><br>
 
-2- login and register page <br>
+2- login and register page <br><br><br>
 ![Screenshot 2022-09-18 015207](https://user-images.githubusercontent.com/79092734/191008902-5a72e7bf-6e25-4d8c-ab83-f8e14b4ccf4d.png)
 
 <br>
 
-3- Appointment page for User <br>
+3- Appointment page for User <br><br><br>
 ![Screenshot 2022-09-18 015251](https://user-images.githubusercontent.com/79092734/191009256-a73be430-ffdc-4221-8d6a-28d475a1a841.png)
 <br>
 
@@ -39,20 +39,20 @@ Admin side  with resposive dashboard <br>
 <br><br>
 ![Screenshot 2022-09-19 140459](https://user-images.githubusercontent.com/79092734/191013594-6e354454-edec-4422-ada1-70fb6f7330e2.png)
 <br><br>
-1- appointments table <br>
+- appointments table <br>
 <br><br>
 ![Screenshot 2022-09-19 140826](https://user-images.githubusercontent.com/79092734/191014119-d0c7a796-76db-422a-b5be-0403b7744171.png)
 
 
 <br><br>
-2-make appointments<br>
+- make appointments<br>
 <br>
 
 ![Screenshot 2022-09-19 140959](https://user-images.githubusercontent.com/79092734/191014186-27689247-2e65-4e8e-8a13-f0d118eab0e0.png)
 
 
 <br><br>
-3- print an appointment bill<br>
+- print an appointment bill<br>
 <br>
 ![Screenshot 2022-09-19 141230](https://user-images.githubusercontent.com/79092734/191014523-215c155c-1172-42a7-ac88-482fba03ebb1.png)
 
@@ -70,8 +70,7 @@ doctors mangement <br>
 <br><br>
 
 
-
-3- adding new doctors <br>
+- adding new doctors <br>
 <br>
 
 
@@ -81,9 +80,9 @@ doctors mangement <br>
 
 
 billing module <br>
-1- creating bills <br>
-2- printing bills <br>
-3- view all bills <br>
+- creating bills <br>
+- printing bills <br>
+- view all bills <br>
 <br><br>
 
 ![Screenshot 2022-09-19 141840](https://user-images.githubusercontent.com/79092734/191015601-50a991f1-4a93-47e3-a08f-64a105dd83c8.png)
@@ -91,7 +90,7 @@ billing module <br>
 
 
 Users controlle<br>
-1- vew all users <br>
+1 - vew all users <br>
 2 - edit users data <br>
 
 
