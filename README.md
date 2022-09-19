@@ -1,15 +1,15 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79092734/191008296-35a6fc09-3948-4555-9943-81115ccc2eb8.png">
 <a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" ></a>
-<
+
 </p> <br> <br>
 
 <p align="center">
 
 <a><img src="https://img.shields.io/github/forks/ahmedsalman74/Medikals-Hospital-Managemet-System.svg" ></a>
-<a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" ></a>
-<a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" ></a>
-<a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" ></a>
+<a><img src="https://img.shields.io/github/stars/ahmedsalman74/Medikals-Hospital-Managemet-System.svg" ></a>
+<a><img src="https://img.shields.io/github/watchers/ahmedsalman74/Medikals-Hospital-Managemet-System.svg" ></a>
+<a><img src="[http://ForTheBadge.com/images/badges/built-with-love.svg](https://img.shields.io/github/downloads/ahmedsalman74/Medikals-Hospital-Managemet-System/total.svg)" ></a>
 </p>
 
 ## About Project
@@ -136,6 +136,18 @@ Users controlle<br>
   ![Screenshot 2022-09-19 143249](https://user-images.githubusercontent.com/79092734/191018094-ef85b109-bdf7-479c-b371-6780e297da69.png)
 
 <br>
+
+
+<p align="center">
+
+<a href=https://github.com/Envoy-VC> <img src=https://avatars.githubusercontent.com/u/65389981?v=4 width="100;" style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedant Chainani/>
+Vedant Chainani </a>
+<a href=https://github.com/Envoy-VC> <img src=https://avatars.githubusercontent.com/u/65389981?v=4 width="100;" style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedant Chainani/>
+Vedant Chainani </a>
+<a href=https://github.com/Envoy-VC> <img src=https://avatars.githubusercontent.com/u/65389981?v=4 width="100;" style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedant Chainani/>
+Vedant Chainani </a>
+</p>
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
