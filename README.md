@@ -1,6 +1,6 @@
-![52152](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.pnggg)
+![52152](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.png)
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.png">
+  <img  src="http://www.fillmurray.com/460/300](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.png">
 </p>
 
 ## Home screen 
