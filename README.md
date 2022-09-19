@@ -120,8 +120,8 @@ Users controlle<br>
     
  <br>
     
-## NOTE to  open admin dashboard you must go to your database and go to users table and change user role from 0 to 1  to become an admin
-    <br>
+## NOTE 
+    to  open admin dashboard you must go to your database and go to users table and change user role from 0 to 1  to become an admin
     
   ![Screenshot 2022-09-19 143249](https://user-images.githubusercontent.com/79092734/191018094-ef85b109-bdf7-479c-b371-6780e297da69.png)
 
