@@ -6,7 +6,7 @@
 
 <p align="center">
 
-<a><img src="https://img.shields.io/github/forks/{ahmedsalman74}/{Medikals-Hospital-Managemet-System}.svg" ></a>
+<a><img src="https://img.shields.io/github/forks/ahmedsalman74/Medikals-Hospital-Managemet-System.svg" ></a>
 <a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" ></a>
 <a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" ></a>
 <a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" ></a>
