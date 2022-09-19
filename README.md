@@ -1,22 +1,30 @@
-![52152](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.png)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79092734/191008296-35a6fc09-3948-4555-9943-81115ccc2eb8.png">
 </p>
 
+## About Project
 
 
-## Home screen 
+Laravel  application for full Hospital management project for making real appointment and admin dashboard 
+
+## first side
+User side is for browsing his site and make an appointments and printing a bill
+
+1- Home screen for user
 
 ![Screenshot 2022-09-18 012404](https://user-images.githubusercontent.com/79092734/191007343-71a789cb-6180-4b9b-b7b3-3f65684ad662.png)
 
 
-## About Project
+
+2- login and register page 
+![Screenshot 2022-09-18 015207](https://user-images.githubusercontent.com/79092734/191008902-5a72e7bf-6e25-4d8c-ab83-f8e14b4ccf4d.png)
 
 
-Laravel  application for full Hospital mangment project devided into sides 
 
-## first side
-User side is for browsing his site and make an appointments 
+2- Appointment page for User 
+![Screenshot 2022-09-18 015251](https://user-images.githubusercontent.com/79092734/191009256-a73be430-ffdc-4221-8d6a-28d475a1a841.png)
+
+
 
 
 ## Second side 
