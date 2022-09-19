@@ -11,17 +11,17 @@ Laravel  application for full Hospital management project for making real appoin
 User side is for browsing his site and make an appointments and printing a bill
 <br><br>
 1- Home screen for user
-
+<br>
 ![Screenshot 2022-09-18 012404](https://user-images.githubusercontent.com/79092734/191007343-71a789cb-6180-4b9b-b7b3-3f65684ad662.png)
 
 <br>
 
-2- login and register page 
+2- login and register page <br>
 ![Screenshot 2022-09-18 015207](https://user-images.githubusercontent.com/79092734/191008902-5a72e7bf-6e25-4d8c-ab83-f8e14b4ccf4d.png)
 
 <br>
 
-3- Appointment page for User 
+3- Appointment page for User <br>
 ![Screenshot 2022-09-18 015251](https://user-images.githubusercontent.com/79092734/191009256-a73be430-ffdc-4221-8d6a-28d475a1a841.png)
 <br>
 
@@ -29,23 +29,70 @@ User side is for browsing his site and make an appointments and printing a bill
 
 ## Second side 
 Admin side  with resposive dashboard <br>
+<br><br>
+![Screenshot 2022-09-19 140354](https://user-images.githubusercontent.com/79092734/191013317-76ec2cce-1286-4a7b-a69e-27c742121726.png)
+
+<br><br>
+
+- Dark mode with apility to change slide bar color and style
+
+<br><br>
+![Screenshot 2022-09-19 140459](https://user-images.githubusercontent.com/79092734/191013594-6e354454-edec-4422-ada1-70fb6f7330e2.png)
+<br><br>
 1- appointments table <br>
+<br><br>
+![Screenshot 2022-09-19 140826](https://user-images.githubusercontent.com/79092734/191014119-d0c7a796-76db-422a-b5be-0403b7744171.png)
+
+
+<br><br>
 2-make appointments<br>
+<br>
+
+![Screenshot 2022-09-19 140959](https://user-images.githubusercontent.com/79092734/191014186-27689247-2e65-4e8e-8a13-f0d118eab0e0.png)
+
+
+<br><br>
 3- print an appointment bill<br>
+<br>
+![Screenshot 2022-09-19 141230](https://user-images.githubusercontent.com/79092734/191014523-215c155c-1172-42a7-ac88-482fba03ebb1.png)
+
+
+<br><br>
  
-Users controlle<br>
-1- vew all users <br>
-2 - edit users data <br>
+
 
 doctors mangement <br>
 1- view all doctors <br>
-2- adding new doctors <br>
-3- edit doctors data <br>
+2- edit doctors data <br><br>
+
+![Screenshot 2022-09-19 141507](https://user-images.githubusercontent.com/79092734/191014904-e0707ce9-9155-4add-8f06-a25c4591b3fa.png)
+
+<br><br>
+
+
+
+3- adding new doctors <br>
+<br>
+
+
+![Screenshot 2022-09-19 141632](https://user-images.githubusercontent.com/79092734/191015146-8fbb1e63-1496-4c6a-a560-8b1e5dfe0ea7.png)
+
+<br><br>
+
 
 billing module <br>
 1- creating bills <br>
 2- printing bills <br>
 3- view all bills <br>
+<br><br>
+
+![Screenshot 2022-09-19 141840](https://user-images.githubusercontent.com/79092734/191015601-50a991f1-4a93-47e3-a08f-64a105dd83c8.png)
+![Screenshot 2022-09-19 141805](https://user-images.githubusercontent.com/79092734/191015606-136dec9a-f7d5-4d15-a55e-ef9ba64176e8.png)
+
+
+Users controlle<br>
+1- vew all users <br>
+2 - edit users data <br>
 
 
 ## Security and Validation 
@@ -58,6 +105,17 @@ billing module <br>
 
 ## Data base 
 1- Data-Base created by miagrations and models <br>
+
+
+
+## HOW TO INSTALL THIS 
+1.Run git clone <my-cool-project>
+2.Run composer install
+3.Run cp .env.example .env
+4.Run php artisan key:generate
+5.Run php artisan migrate
+6.Run php artisan serve
+7.Go to link localhost:8000
 
 
 
