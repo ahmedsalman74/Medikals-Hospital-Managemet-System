@@ -9,7 +9,7 @@
 <a><img src="https://img.shields.io/github/forks/ahmedsalman74/Medikals-Hospital-Managemet-System.svg" ></a>
 <a><img src="https://img.shields.io/github/stars/ahmedsalman74/Medikals-Hospital-Managemet-System.svg" ></a>
 <a><img src="https://img.shields.io/github/watchers/ahmedsalman74/Medikals-Hospital-Managemet-System.svg" ></a>
-<a><img src="http://ForTheBadge.com/images/badges/built-with-love.svg](https://img.shields.io/github/downloads/ahmedsalman74/Medikals-Hospital-Managemet-System/total.svg" ></a>
+<a><img src="https://img.shields.io/github/downloads/ahmedsalman74/Medikals-Hospital-Managemet-System/total.svg" ></a>
 </p>
 
 ## About Project
@@ -140,12 +140,6 @@ Users controlle<br>
 
 
 
-<a href=https://github.com/Envoy-VC> <img src=https://avatars.githubusercontent.com/u/65389981?v=4 width="100;" style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedant Chainani/>
-Vedant Chainani </a>
-<a href=https://github.com/Envoy-VC> <img src=https://avatars.githubusercontent.com/u/65389981?v=4 width="100;" style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedant Chainani/>
-Vedant Chainani </a>
-<a href=https://github.com/Envoy-VC> <img src=https://avatars.githubusercontent.com/u/65389981?v=4 width="100;" style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedant Chainani/>
-Vedant Chainani </a>
 
 
 
