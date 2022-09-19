@@ -1,3 +1,8 @@
+![52152](https://user-images.githubusercontent.com/79092734/191007497-9595dc7e-1c15-4dda-9a18-66a7c0b63e32.png)
+
+
+## Home screen 
+
 ![Screenshot 2022-09-18 012404](https://user-images.githubusercontent.com/79092734/191007343-71a789cb-6180-4b9b-b7b3-3f65684ad662.png)
 
 
