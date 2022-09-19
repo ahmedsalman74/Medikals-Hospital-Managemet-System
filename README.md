@@ -14,16 +14,16 @@ User side is for browsing his site and make an appointments and printing a bill
 
 ![Screenshot 2022-09-18 012404](https://user-images.githubusercontent.com/79092734/191007343-71a789cb-6180-4b9b-b7b3-3f65684ad662.png)
 
-
+<br>
 
 2- login and register page 
 ![Screenshot 2022-09-18 015207](https://user-images.githubusercontent.com/79092734/191008902-5a72e7bf-6e25-4d8c-ab83-f8e14b4ccf4d.png)
 
+<br>
 
-
-2- Appointment page for User 
+3- Appointment page for User 
 ![Screenshot 2022-09-18 015251](https://user-images.githubusercontent.com/79092734/191009256-a73be430-ffdc-4221-8d6a-28d475a1a841.png)
-
+<br>
 
 
 
