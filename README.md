@@ -54,7 +54,9 @@ Admin side  with resposive dashboard <br>
 <br><br>
 - print an appointment bill<br>
 <br>
-![Screenshot 2022-09-19 141230](https://user-images.githubusercontent.com/79092734/191014523-215c155c-1172-42a7-ac88-482fba03ebb1.png)
+
+![Screenshot 2022-09-19 141230](https://user-images.githubusercontent.com/79092734/191016878-edab226a-f984-41c1-94ff-aa2a467b7d67.png)
+
 
 
 <br><br>
